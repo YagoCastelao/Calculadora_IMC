@@ -1,5 +1,7 @@
 import styles from './ImcCalc.module.css'
 
+import Button from './Button';
+
 const ImcCalc = () => {
   return (
     <div id="calc-container">
@@ -26,8 +28,8 @@ const ImcCalc = () => {
           </div>
         </div>
         <div className="action-control">
-            <button>Calcular</button>
-            <button>Limpiar</button>
+          <Button id="calc-btn" text="Calcular" />
+          <Button id="clear-btn" text="Limpar" />
         </div>
       </form>
     </div>
