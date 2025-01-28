@@ -1,6 +1,6 @@
-import styles from './ImcCalc.module.css'
+import "./ImcCalc.css";
 
-import Button from './Button';
+import Button from "./Button";
 
 const ImcCalc = () => {
   return (
@@ -34,6 +34,6 @@ const ImcCalc = () => {
       </form>
     </div>
   );
-}
+};
 
-export default ImcCalc
+export default ImcCalc;
