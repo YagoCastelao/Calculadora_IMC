@@ -13,3 +13,7 @@ button {
 button:hover {
     opacity: 1;
 }
+
+#clear-btn {
+    background-color: #444;
+}
